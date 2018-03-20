@@ -1,6 +1,9 @@
-n=int(raw_input())
-if(n%2==0):
-	print("even")
+n=input()
+if(n.isnumeric()):
+	a=int(n)
+	if(a%2==0):
+		print("even")
+	else:
+		print("odd")
 else:
-	print("odd")
-  
+	print("inva")
