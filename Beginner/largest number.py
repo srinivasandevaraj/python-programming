@@ -2,10 +2,10 @@ a=int(input())
 b=int(input())
 c=int(input())
 if(a>b)and(a>c):
-  print("a is greather")
+  print(a)
 elif(b>a)and(b>c):
-  print("b is greather")
+  print(b)
 elif(c>a)and(b>a):
-  print("c is greather")
+  print(c)
 else:
   print("invalid")
